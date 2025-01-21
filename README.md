@@ -7,7 +7,7 @@ Code for a text analytics project to analyze BYU student ratings. Please note th
 <li>Intellectually Enlarging
 <li>Character Building
 <li>Leading to Lifelong Learning and Service
-<\ul>
+</ul>
 
 ## Cleaning Process
 To start, the real data was located in 12 Excel sheets. Each sheet was read and then combined into one data frame. 

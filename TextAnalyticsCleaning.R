@@ -21,8 +21,8 @@ read_excel_allsheets <- function(filename, tibble = FALSE) {
   x
 }
 
-# Only want to read sheets 0-12, 13 is blank 
-all_sheets <- read_excel_allsheets("Aims scores and comments CMPS select courses.xlsx")[0:12]
+# Read the sheets
+all_sheets <- read_excel_allsheets("Aims&CommentsCMPS.xlsx")
 
 # Here is where you can specify the aim you are interested in. The options are: 
 # Spiritually strengthening,Intellectually enlarging, Character building, Leading to lifelong learning and service
